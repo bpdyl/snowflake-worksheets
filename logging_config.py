@@ -11,6 +11,7 @@ def setup_logging():
     vars = Variables('ENV.cfg')
 
     curr_time = datetime.now().strftime("%Y_%m_%d_%H_%M_%S")
+    os.makedirs(vars.get('LOG_DIR'), exist_ok=True)
     log_file = os.path.join(vars.get('LOG_DIR'),f'sf_worksheet_{curr_time}.log')
     logging.basicConfig(level=logging.INFO, format='%(levelname)s %(asctime)s : %(message)s', filename=log_file)
 
