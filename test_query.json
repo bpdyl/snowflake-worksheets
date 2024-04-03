@@ -1,0 +1,93 @@
+{
+  "snowflakeRequestId": "a3d1120e-34fc-4243-9ba5-9f9c0c120e45",
+  "snowflakeQueryId": "01b32e30-0000-9a23-0006-b4620003c0ce",
+  "runner": "505987850600",
+  "query": "SELECT 1;\nSELECT 2;\nSELECT 'A';",
+  "queryContext": {
+    "role": "ACCOUNTADMIN",
+    "warehouse": "COMPUTE_WH",
+    "database": "",
+    "schema": "",
+    "secondaryRoles": "NONE"
+  },
+  "queryRange": {
+    "start": 10,
+    "end": 19,
+    "allowRewrites": false
+  },
+  "startDate": "2024-03-23T13:04:01.500382297Z",
+  "endDate": "2024-03-23T13:04:01.53430105Z",
+  "transforms": [],
+  "queryLanguage": "sql",
+  "appSessionId": 533735403745,
+  "gsQueryMetadata": {
+    "startTime": 1711199041487,
+    "endTime": 1711199041503,
+    "sqlText": "SELECT 2;",
+    "state": "SUCCEEDED",
+    "statesDuration": "[12,0,1,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0]",
+    "stats": {
+      "compilationTime": 12,
+      "gsExecTime": 1,
+      "numBytesWrittenFirstResultChunk": 5,
+      "numRowsInResult": 1
+    },
+    "status": "SUCCESS",
+    "totalDuration": 16,
+    "warehouseName": "COMPUTE_WH"
+  },
+  "pid": "1R76n41a2ek",
+  "name": "NEW_SQL_WS",
+  "orgId": "202346043869",
+  "ownerId": "505987850600",
+  "folderId": "4W6KRLKC",
+  "visibility": "private",
+  "layout": {
+    "explorer": {
+      "topHeight": 0,
+      "mode": "CUSTOM"
+    },
+    "pinned": {
+      "topHeight": 0,
+      "mode": "CUSTOM"
+    },
+    "results": {
+      "topHeight": 556,
+      "mode": "CUSTOM"
+    },
+    "schema": {
+      "topHeight": 556,
+      "mode": "CUSTOM"
+    },
+    "visualization": {
+      "topHeight": 556,
+      "mode": "CUSTOM"
+    }
+  },
+  "modified": "2024-03-23T13:04:07.549129Z",
+  "version": 3,
+  "isParamQuery": false,
+  "projectType": "query",
+  "executionContext": {
+    "role": "ACCOUNTADMIN",
+    "warehouse": "",
+    "database": "",
+    "schema": "",
+    "secondaryRoles": "NONE"
+  },
+  "editable": true,
+  "runnable": true,
+  "resultsViewable": true,
+  "url": "/qtmrtgh/tq29126/w1R76n41a2ek#query",
+  "slug": "w1R76n41a2ek",
+  "members": [
+    {
+      "memberType": "user",
+      "userId": "505987850600",
+      "memberId": "505987850600",
+      "role": "owner",
+      "hasRole": true
+    }
+  ],
+  "hasRequiredRole": true
+}
